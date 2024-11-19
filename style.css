@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kablammo&family=Oxanium:wght@200..800&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Comic Neue", cursive;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 50vh;
+    width: min(50%, 30rem)
+}
+
+button {
+    background-color: white;
+    font-size: 3rem;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
